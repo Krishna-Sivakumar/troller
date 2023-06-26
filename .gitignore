@@ -4,4 +4,5 @@ stored_commands.json
 token.txt
 .env
 venv
+__pycache__/
 
