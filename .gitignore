@@ -1,0 +1,7 @@
+.sw*
+permissions.txt
+stored_commands.json
+token.txt
+.env
+venv
+
