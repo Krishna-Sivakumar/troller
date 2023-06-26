@@ -1,6 +1,16 @@
 # Troller
 A bot to roll your dice for DnD and more!
 
+### Docker
+
+There's a docker container that you can find on the releases tab.
+
+Usage commands:
+```
+docker build -t troller troller-bot
+docker run -e DISCORD_TOKEN=(cat discord_token.txt) troller-bot
+```shell
+
 ### Setup Instructions
 
 ```shell
