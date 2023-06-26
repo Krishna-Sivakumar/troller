@@ -9,7 +9,7 @@ source .env/bin/activate # shell dependent, this works for bash
 python3 -m pip install -r requirements.txt
 ```
 
-add your token to `token.txt`.
+set the `DISCORD_TOKEN` environment variable to authenticate your account.
 I currently use a static token to log the bot in.
 
 ### Run the Bot

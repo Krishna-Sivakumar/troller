@@ -1,5 +1,7 @@
 from client import troller_client
+from os import environ
 
 if __name__ == "__main__":
-    troller_client.run(open("token.txt").read())
+    token = environ["DISCORD_TOKEN"]
+    troller_client.run(token)
 
