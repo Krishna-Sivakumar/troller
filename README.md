@@ -9,7 +9,7 @@ source .env/bin/activate # shell dependent, this works for bash
 python3 -m pip install -r requirements.txt
 ```
 
-add permissions to `permissions.txt` and your token to `token.txt`.
+add your token to `token.txt`.
 I currently use a static token to log the bot in.
 
 ### Run the Bot
