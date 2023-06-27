@@ -9,7 +9,7 @@ Usage commands:
 ```
 docker build -t troller troller-bot
 docker run -e DISCORD_TOKEN=(cat discord_token.txt) troller-bot
-```shell
+```
 
 ### Setup Instructions
 
