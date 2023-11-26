@@ -6,12 +6,13 @@ A bot to roll your dice for DnD and more!
 There's a docker container that you can find on the releases tab.
 
 Usage commands:
-```
-docker build -t troller troller-bot
-docker run -e DISCORD_TOKEN=(cat discord_token.txt) troller-bot
+```shell
+git clone "https://github.com/Krishna-Sivakumar/troller.git"
+docker build -t troller ./troller
+docker run -e DISCORD_TOKEN=$(cat discord_token.txt) troller
 ```
 
-### Setup Instructions
+### Local Setup Instructions
 
 ```shell
 virutalenv .env
